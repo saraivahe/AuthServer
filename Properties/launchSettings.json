@@ -1,0 +1,29 @@
+{
+  "profiles": {
+    "auth": {
+      "commandName": "Project",
+      "workingDirectory": "C:\\inetpub\\wwwroot\\publish\\identityserver",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "dotnetRunMessages": true,
+      "applicationUrl": "https://login-dev.com;http://login-dev.com"
+    },
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  },
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:8081",
+      "sslPort": 44375
+    }
+  }
+}
